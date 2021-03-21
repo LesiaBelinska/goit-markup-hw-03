@@ -299,7 +299,7 @@ img {
 .filter-portfolio {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 94px;
+  padding-top: 94px;
   margin-bottom: 50px;
   justify-content: center;
   align-items: center;
