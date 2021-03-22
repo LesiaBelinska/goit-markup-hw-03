@@ -7,6 +7,7 @@
   --dark-bg-color: #2f303a;
   --border-header-color: #ececec;
   --border-portfolio-color: #eeeeee;
+  --hover-button-color: #188ce8;
 }
 
 html {
@@ -169,6 +170,11 @@ img {
   cursor: pointer;
   color: var(--title-color);
   background-color: var(--accent-color);
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--hover-button-color);
 }
 
 .page-title {
