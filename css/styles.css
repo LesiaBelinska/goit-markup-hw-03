@@ -57,6 +57,11 @@ img {
   list-style: none;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1200px;
   padding-right: 15px;
@@ -150,11 +155,10 @@ img {
   color: var(--accent-color);
 }
 
-.hero {
-  min-height: 100vh;
-  text-align: center;
+.hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 .button-hero {
@@ -232,6 +236,10 @@ img {
   color: var(--secondary-text-color);
 }
 
+.work-section {
+  padding-top: 0;
+}
+
 .work-grid {
   display: flex;
   flex-wrap: wrap;
@@ -297,15 +305,9 @@ img {
   overflow: hidden;
 }
 
-.section {
-  /*padding-top: 94px;*/
-  padding-bottom: 94px;
-}
-
 .filter-portfolio {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 94px;
   margin-bottom: 50px;
   justify-content: center;
   align-items: center;
@@ -319,8 +321,6 @@ img {
 .portfolio-grid {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
-  margin-bottom: -30px;
 }
 
 .portfolio-item {
